@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50d" minimumToolsVersion="Xcode 4.1" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Travel_TodoItem" representedClassName="TravelTodoItem" syncable="YES">
+        <attribute name="created_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDone" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="parentList" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Travel_TodoList" inverseName="todoItems" inverseEntity="Travel_TodoList" syncable="YES"/>
+    </entity>
+    <entity name="Travel_TodoList" representedClassName="TravelTodoList" syncable="YES">
+        <attribute name="created_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="owner" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Travel_User" inverseName="listByUser" inverseEntity="Travel_User" syncable="YES"/>
+        <relationship name="todoItems" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Travel_TodoItem" inverseName="parentList" inverseEntity="Travel_TodoItem" syncable="YES"/>
+    </entity>
+    <entity name="Travel_User" representedClassName="TravelUser" syncable="YES">
+        <attribute name="fname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="listByUser" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Travel_TodoList" inverseName="owner" inverseEntity="Travel_TodoList" syncable="YES"/>
+        <relationship name="vault" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Travel_Vault" inverseName="owner" inverseEntity="Travel_Vault" syncable="YES"/>
+    </entity>
+    <entity name="Travel_Vault" representedClassName="TravelVault" syncable="YES">
+        <attribute name="password" optional="YES" attributeType="String" maxValueString="4" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="imageList" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Travel_VaultImage" inverseName="vault" inverseEntity="Travel_VaultImage" syncable="YES"/>
+        <relationship name="noteList" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Travel_VaultNote" inverseName="vault" inverseEntity="Travel_VaultNote" syncable="YES"/>
+        <relationship name="owner" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="Travel_User" inverseName="vault" inverseEntity="Travel_User" syncable="YES"/>
+    </entity>
+    <entity name="Travel_VaultImage" representedClassName="TravelVaultImage" syncable="YES">
+        <attribute name="caption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="source_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thumbnail_path" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="vault" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Travel_Vault" inverseName="imageList" inverseEntity="Travel_Vault" syncable="YES"/>
+    </entity>
+    <entity name="Travel_VaultNote" representedClassName="TravelVaultNote" syncable="YES">
+        <attribute name="created_date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="vault" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Travel_Vault" inverseName="noteList" inverseEntity="Travel_Vault" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Travel_TodoItem" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="Travel_TodoList" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Travel_User" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="Travel_Vault" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="Travel_VaultImage" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Travel_VaultNote" positionX="160" positionY="192" width="128" height="105"/>
+    </elements>
+</model>

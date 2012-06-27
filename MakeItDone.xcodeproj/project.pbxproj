@@ -14,7 +14,50 @@
 		6ACFE81C159B619800AEE853 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE81A159B619800AEE853 /* InfoPlist.strings */; };
 		6ACFE81E159B619800AEE853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE81D159B619800AEE853 /* main.m */; };
 		6ACFE822159B619800AEE853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE821159B619800AEE853 /* AppDelegate.m */; };
-		6ACFE825159B619800AEE853 /* MakeItDone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE823159B619800AEE853 /* MakeItDone.xcdatamodeld */; };
+		6ACFE831159B61EA00AEE853 /* TravelNewChecklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE82F159B61EA00AEE853 /* TravelNewChecklistViewController.m */; };
+		6ACFE832159B61EA00AEE853 /* TravelNewChecklistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE830159B61EA00AEE853 /* TravelNewChecklistViewController.xib */; };
+		6ACFE848159B61FF00AEE853 /* trash_fill_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE834159B61FF00AEE853 /* trash_fill_16x16.png */; };
+		6ACFE849159B61FF00AEE853 /* trash_fill_24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE835159B61FF00AEE853 /* trash_fill_24x24.png */; };
+		6ACFE84A159B61FF00AEE853 /* check_24x20.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE836159B61FF00AEE853 /* check_24x20.png */; };
+		6ACFE84B159B61FF00AEE853 /* tv-nav-plus-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE837159B61FF00AEE853 /* tv-nav-plus-icon.png */; };
+		6ACFE84C159B61FF00AEE853 /* tv-nav-plus-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE838159B61FF00AEE853 /* tv-nav-plus-icon@2x.png */; };
+		6ACFE84D159B61FF00AEE853 /* tv-todolist-check.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE839159B61FF00AEE853 /* tv-todolist-check.png */; };
+		6ACFE84E159B61FF00AEE853 /* tv-todolist-check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE83A159B61FF00AEE853 /* tv-todolist-check@2x.png */; };
+		6ACFE84F159B61FF00AEE853 /* tv-todolist-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE83B159B61FF00AEE853 /* tv-todolist-checked.png */; };
+		6ACFE850159B61FF00AEE853 /* tv-todolist-checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE83C159B61FF00AEE853 /* tv-todolist-checked@2x.png */; };
+		6ACFE851159B61FF00AEE853 /* TravelTodoItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE83E159B61FF00AEE853 /* TravelTodoItemsViewController.m */; };
+		6ACFE852159B61FF00AEE853 /* TravelTodoItemsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE83F159B61FF00AEE853 /* TravelTodoItemsViewController.xib */; };
+		6ACFE853159B61FF00AEE853 /* TravelTodoItemsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE841159B61FF00AEE853 /* TravelTodoItemsCell.m */; };
+		6ACFE854159B61FF00AEE853 /* TravelTodoItemsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE842159B61FF00AEE853 /* TravelTodoItemsCell.xib */; };
+		6ACFE855159B61FF00AEE853 /* CheckboxImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE844159B61FF00AEE853 /* CheckboxImageView.m */; };
+		6ACFE856159B61FF00AEE853 /* TravelTodoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE846159B61FF00AEE853 /* TravelTodoDetailViewController.m */; };
+		6ACFE857159B61FF00AEE853 /* TravelTodoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE847159B61FF00AEE853 /* TravelTodoDetailViewController.xib */; };
+		6ACFE85F159B621500AEE853 /* TravelChecklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE85A159B621500AEE853 /* TravelChecklistViewController.m */; };
+		6ACFE860159B621500AEE853 /* TravelChecklistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE85B159B621500AEE853 /* TravelChecklistViewController.xib */; };
+		6ACFE861159B621500AEE853 /* TravelTodoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE85D159B621500AEE853 /* TravelTodoListCell.m */; };
+		6ACFE862159B621500AEE853 /* TravelTodoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE85E159B621500AEE853 /* TravelTodoListCell.xib */; };
+		6ACFE876159B62A200AEE853 /* TravelMOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE870159B62A200AEE853 /* TravelMOC.m */; };
+		6ACFE878159B62A200AEE853 /* TravelTodoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE873159B62A200AEE853 /* TravelTodoList.m */; };
+		6ACFE879159B62A200AEE853 /* TravelTodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE875159B62A200AEE853 /* TravelTodoItem.m */; };
+		6ACFE888159B62D900AEE853 /* app-corner-radius.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE87B159B62D900AEE853 /* app-corner-radius.png */; };
+		6ACFE889159B62D900AEE853 /* app-corner-radius@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE87C159B62D900AEE853 /* app-corner-radius@2x.png */; };
+		6ACFE88A159B62D900AEE853 /* linen-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE87D159B62D900AEE853 /* linen-bg.png */; };
+		6ACFE88B159B62D900AEE853 /* linen-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE87E159B62D900AEE853 /* linen-bg@2x.png */; };
+		6ACFE88C159B62D900AEE853 /* nav-back-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE87F159B62D900AEE853 /* nav-back-btn.png */; };
+		6ACFE88D159B62D900AEE853 /* nav-back-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE880159B62D900AEE853 /* nav-back-btn@2x.png */; };
+		6ACFE88E159B62D900AEE853 /* nav-overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE881159B62D900AEE853 /* nav-overlay.png */; };
+		6ACFE88F159B62D900AEE853 /* nav-overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE882159B62D900AEE853 /* nav-overlay@2x.png */; };
+		6ACFE890159B62D900AEE853 /* nav-plus-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE883159B62D900AEE853 /* nav-plus-btn.png */; };
+		6ACFE891159B62D900AEE853 /* nav-plus-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE884159B62D900AEE853 /* nav-plus-btn@2x.png */; };
+		6ACFE892159B62D900AEE853 /* JKNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE886159B62D900AEE853 /* JKNavigationBar.m */; };
+		6ACFE893159B62D900AEE853 /* JKNavigationBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE887159B62D900AEE853 /* JKNavigationBarController.xib */; };
+		6ACFE89A159B632D00AEE853 /* tv-main-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE898159B632C00AEE853 /* tv-main-bg.png */; };
+		6ACFE89B159B632D00AEE853 /* tv-main-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6ACFE899159B632C00AEE853 /* tv-main-bg@2x.png */; };
+		6ACFE89E159B649200AEE853 /* TravelVaultImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE89D159B649200AEE853 /* TravelVaultImage.m */; };
+		6ACFE8A1159B649300AEE853 /* TravelVaultNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE8A0159B649300AEE853 /* TravelVaultNote.m */; };
+		6ACFE8A4159B649300AEE853 /* TravelUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE8A3159B649300AEE853 /* TravelUser.m */; };
+		6ACFE8A7159B649400AEE853 /* TravelVault.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE8A6159B649400AEE853 /* TravelVault.m */; };
+		6ACFE8AB159B650300AEE853 /* TravelModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFE8A8159B650300AEE853 /* TravelModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +66,72 @@
 		6ACFE811159B619800AEE853 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6ACFE813159B619800AEE853 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6ACFE815159B619800AEE853 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		6ACFE819159B619800AEE853 /* MakeItDone-Info.plist */ = {isa = PBXFileReference; path = "MakeItDone-Info.plist"; sourceTree = "<group>"; };
+		6ACFE819159B619800AEE853 /* MakeItDone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakeItDone-Info.plist"; sourceTree = "<group>"; };
 		6ACFE81B159B619800AEE853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6ACFE81D159B619800AEE853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6ACFE81F159B619800AEE853 /* MakeItDone-Prefix.pch */ = {isa = PBXFileReference; path = "MakeItDone-Prefix.pch"; sourceTree = "<group>"; };
-		6ACFE820159B619800AEE853 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ACFE81F159B619800AEE853 /* MakeItDone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MakeItDone-Prefix.pch"; sourceTree = "<group>"; };
+		6ACFE820159B619800AEE853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6ACFE821159B619800AEE853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6ACFE824159B619800AEE853 /* MakeItDone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MakeItDone.xcdatamodel; sourceTree = "<group>"; };
+		6ACFE82E159B61EA00AEE853 /* TravelNewChecklistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelNewChecklistViewController.h; sourceTree = "<group>"; };
+		6ACFE82F159B61EA00AEE853 /* TravelNewChecklistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelNewChecklistViewController.m; sourceTree = "<group>"; };
+		6ACFE830159B61EA00AEE853 /* TravelNewChecklistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelNewChecklistViewController.xib; sourceTree = "<group>"; };
+		6ACFE834159B61FF00AEE853 /* trash_fill_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash_fill_16x16.png; sourceTree = "<group>"; };
+		6ACFE835159B61FF00AEE853 /* trash_fill_24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash_fill_24x24.png; sourceTree = "<group>"; };
+		6ACFE836159B61FF00AEE853 /* check_24x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_24x20.png; sourceTree = "<group>"; };
+		6ACFE837159B61FF00AEE853 /* tv-nav-plus-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv-nav-plus-icon.png"; sourceTree = "<group>"; };
+		6ACFE838159B61FF00AEE853 /* tv-nav-plus-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv-nav-plus-icon@2x.png"; sourceTree = "<group>"; };
+		6ACFE839159B61FF00AEE853 /* tv-todolist-check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv-todolist-check.png"; sourceTree = "<group>"; };
+		6ACFE83A159B61FF00AEE853 /* tv-todolist-check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv-todolist-check@2x.png"; sourceTree = "<group>"; };
+		6ACFE83B159B61FF00AEE853 /* tv-todolist-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv-todolist-checked.png"; sourceTree = "<group>"; };
+		6ACFE83C159B61FF00AEE853 /* tv-todolist-checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv-todolist-checked@2x.png"; sourceTree = "<group>"; };
+		6ACFE83D159B61FF00AEE853 /* TravelTodoItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelTodoItemsViewController.h; sourceTree = "<group>"; };
+		6ACFE83E159B61FF00AEE853 /* TravelTodoItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelTodoItemsViewController.m; sourceTree = "<group>"; };
+		6ACFE83F159B61FF00AEE853 /* TravelTodoItemsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelTodoItemsViewController.xib; sourceTree = "<group>"; };
+		6ACFE840159B61FF00AEE853 /* TravelTodoItemsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelTodoItemsCell.h; sourceTree = "<group>"; };
+		6ACFE841159B61FF00AEE853 /* TravelTodoItemsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelTodoItemsCell.m; sourceTree = "<group>"; };
+		6ACFE842159B61FF00AEE853 /* TravelTodoItemsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelTodoItemsCell.xib; sourceTree = "<group>"; };
+		6ACFE843159B61FF00AEE853 /* CheckboxImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckboxImageView.h; sourceTree = "<group>"; };
+		6ACFE844159B61FF00AEE853 /* CheckboxImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckboxImageView.m; sourceTree = "<group>"; };
+		6ACFE845159B61FF00AEE853 /* TravelTodoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelTodoDetailViewController.h; sourceTree = "<group>"; };
+		6ACFE846159B61FF00AEE853 /* TravelTodoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelTodoDetailViewController.m; sourceTree = "<group>"; };
+		6ACFE847159B61FF00AEE853 /* TravelTodoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelTodoDetailViewController.xib; sourceTree = "<group>"; };
+		6ACFE859159B621500AEE853 /* TravelChecklistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelChecklistViewController.h; sourceTree = "<group>"; };
+		6ACFE85A159B621500AEE853 /* TravelChecklistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelChecklistViewController.m; sourceTree = "<group>"; };
+		6ACFE85B159B621500AEE853 /* TravelChecklistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelChecklistViewController.xib; sourceTree = "<group>"; };
+		6ACFE85C159B621500AEE853 /* TravelTodoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelTodoListCell.h; sourceTree = "<group>"; };
+		6ACFE85D159B621500AEE853 /* TravelTodoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelTodoListCell.m; sourceTree = "<group>"; };
+		6ACFE85E159B621500AEE853 /* TravelTodoListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelTodoListCell.xib; sourceTree = "<group>"; };
+		6ACFE86F159B62A200AEE853 /* TravelMOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelMOC.h; sourceTree = "<group>"; };
+		6ACFE870159B62A200AEE853 /* TravelMOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelMOC.m; sourceTree = "<group>"; };
+		6ACFE872159B62A200AEE853 /* TravelTodoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelTodoList.h; sourceTree = "<group>"; };
+		6ACFE873159B62A200AEE853 /* TravelTodoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelTodoList.m; sourceTree = "<group>"; };
+		6ACFE874159B62A200AEE853 /* TravelTodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelTodoItem.h; sourceTree = "<group>"; };
+		6ACFE875159B62A200AEE853 /* TravelTodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelTodoItem.m; sourceTree = "<group>"; };
+		6ACFE87B159B62D900AEE853 /* app-corner-radius.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-corner-radius.png"; sourceTree = "<group>"; };
+		6ACFE87C159B62D900AEE853 /* app-corner-radius@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-corner-radius@2x.png"; sourceTree = "<group>"; };
+		6ACFE87D159B62D900AEE853 /* linen-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linen-bg.png"; sourceTree = "<group>"; };
+		6ACFE87E159B62D900AEE853 /* linen-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "linen-bg@2x.png"; sourceTree = "<group>"; };
+		6ACFE87F159B62D900AEE853 /* nav-back-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-back-btn.png"; sourceTree = "<group>"; };
+		6ACFE880159B62D900AEE853 /* nav-back-btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-back-btn@2x.png"; sourceTree = "<group>"; };
+		6ACFE881159B62D900AEE853 /* nav-overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-overlay.png"; sourceTree = "<group>"; };
+		6ACFE882159B62D900AEE853 /* nav-overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-overlay@2x.png"; sourceTree = "<group>"; };
+		6ACFE883159B62D900AEE853 /* nav-plus-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-plus-btn.png"; sourceTree = "<group>"; };
+		6ACFE884159B62D900AEE853 /* nav-plus-btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-plus-btn@2x.png"; sourceTree = "<group>"; };
+		6ACFE885159B62D900AEE853 /* JKNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKNavigationBar.h; sourceTree = "<group>"; };
+		6ACFE886159B62D900AEE853 /* JKNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKNavigationBar.m; sourceTree = "<group>"; };
+		6ACFE887159B62D900AEE853 /* JKNavigationBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKNavigationBarController.xib; sourceTree = "<group>"; };
+		6ACFE898159B632C00AEE853 /* tv-main-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv-main-bg.png"; sourceTree = "<group>"; };
+		6ACFE899159B632C00AEE853 /* tv-main-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv-main-bg@2x.png"; sourceTree = "<group>"; };
+		6ACFE89C159B649200AEE853 /* TravelVaultImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelVaultImage.h; sourceTree = "<group>"; };
+		6ACFE89D159B649200AEE853 /* TravelVaultImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelVaultImage.m; sourceTree = "<group>"; };
+		6ACFE89F159B649300AEE853 /* TravelVaultNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelVaultNote.h; sourceTree = "<group>"; };
+		6ACFE8A0159B649300AEE853 /* TravelVaultNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelVaultNote.m; sourceTree = "<group>"; };
+		6ACFE8A2159B649300AEE853 /* TravelUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelUser.h; sourceTree = "<group>"; };
+		6ACFE8A3159B649300AEE853 /* TravelUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelUser.m; sourceTree = "<group>"; };
+		6ACFE8A5159B649400AEE853 /* TravelVault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelVault.h; sourceTree = "<group>"; };
+		6ACFE8A6159B649400AEE853 /* TravelVault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelVault.m; sourceTree = "<group>"; };
+		6ACFE8A9159B650300AEE853 /* TravelModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TravelModel 2.xcdatamodel"; sourceTree = "<group>"; };
+		6ACFE8AA159B650300AEE853 /* TravelModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravelModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +180,13 @@
 		6ACFE817159B619800AEE853 /* MakeItDone */ = {
 			isa = PBXGroup;
 			children = (
+				6ACFE898159B632C00AEE853 /* tv-main-bg.png */,
+				6ACFE899159B632C00AEE853 /* tv-main-bg@2x.png */,
+				6ACFE87A159B62C100AEE853 /* Custom Nav */,
+				6ACFE863159B628700AEE853 /* MOC */,
+				6ACFE82C159B61BF00AEE853 /* Checklist */,
 				6ACFE820159B619800AEE853 /* AppDelegate.h */,
 				6ACFE821159B619800AEE853 /* AppDelegate.m */,
-				6ACFE823159B619800AEE853 /* MakeItDone.xcdatamodeld */,
 				6ACFE818159B619800AEE853 /* Supporting Files */,
 			);
 			path = MakeItDone;
@@ -95,6 +201,108 @@
 				6ACFE81F159B619800AEE853 /* MakeItDone-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ACFE82C159B61BF00AEE853 /* Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				6ACFE858159B620700AEE853 /* ChecklistView */,
+				6ACFE833159B61F100AEE853 /* AllTodoItems */,
+				6ACFE82D159B61D900AEE853 /* New List */,
+			);
+			name = Checklist;
+			sourceTree = "<group>";
+		};
+		6ACFE82D159B61D900AEE853 /* New List */ = {
+			isa = PBXGroup;
+			children = (
+				6ACFE82E159B61EA00AEE853 /* TravelNewChecklistViewController.h */,
+				6ACFE82F159B61EA00AEE853 /* TravelNewChecklistViewController.m */,
+				6ACFE830159B61EA00AEE853 /* TravelNewChecklistViewController.xib */,
+			);
+			name = "New List";
+			sourceTree = "<group>";
+		};
+		6ACFE833159B61F100AEE853 /* AllTodoItems */ = {
+			isa = PBXGroup;
+			children = (
+				6ACFE834159B61FF00AEE853 /* trash_fill_16x16.png */,
+				6ACFE835159B61FF00AEE853 /* trash_fill_24x24.png */,
+				6ACFE836159B61FF00AEE853 /* check_24x20.png */,
+				6ACFE837159B61FF00AEE853 /* tv-nav-plus-icon.png */,
+				6ACFE838159B61FF00AEE853 /* tv-nav-plus-icon@2x.png */,
+				6ACFE839159B61FF00AEE853 /* tv-todolist-check.png */,
+				6ACFE83A159B61FF00AEE853 /* tv-todolist-check@2x.png */,
+				6ACFE83B159B61FF00AEE853 /* tv-todolist-checked.png */,
+				6ACFE83C159B61FF00AEE853 /* tv-todolist-checked@2x.png */,
+				6ACFE83D159B61FF00AEE853 /* TravelTodoItemsViewController.h */,
+				6ACFE83E159B61FF00AEE853 /* TravelTodoItemsViewController.m */,
+				6ACFE83F159B61FF00AEE853 /* TravelTodoItemsViewController.xib */,
+				6ACFE840159B61FF00AEE853 /* TravelTodoItemsCell.h */,
+				6ACFE841159B61FF00AEE853 /* TravelTodoItemsCell.m */,
+				6ACFE842159B61FF00AEE853 /* TravelTodoItemsCell.xib */,
+				6ACFE843159B61FF00AEE853 /* CheckboxImageView.h */,
+				6ACFE844159B61FF00AEE853 /* CheckboxImageView.m */,
+				6ACFE845159B61FF00AEE853 /* TravelTodoDetailViewController.h */,
+				6ACFE846159B61FF00AEE853 /* TravelTodoDetailViewController.m */,
+				6ACFE847159B61FF00AEE853 /* TravelTodoDetailViewController.xib */,
+			);
+			name = AllTodoItems;
+			sourceTree = "<group>";
+		};
+		6ACFE858159B620700AEE853 /* ChecklistView */ = {
+			isa = PBXGroup;
+			children = (
+				6ACFE859159B621500AEE853 /* TravelChecklistViewController.h */,
+				6ACFE85A159B621500AEE853 /* TravelChecklistViewController.m */,
+				6ACFE85B159B621500AEE853 /* TravelChecklistViewController.xib */,
+				6ACFE85C159B621500AEE853 /* TravelTodoListCell.h */,
+				6ACFE85D159B621500AEE853 /* TravelTodoListCell.m */,
+				6ACFE85E159B621500AEE853 /* TravelTodoListCell.xib */,
+			);
+			name = ChecklistView;
+			sourceTree = "<group>";
+		};
+		6ACFE863159B628700AEE853 /* MOC */ = {
+			isa = PBXGroup;
+			children = (
+				6ACFE86F159B62A200AEE853 /* TravelMOC.h */,
+				6ACFE870159B62A200AEE853 /* TravelMOC.m */,
+				6ACFE8A8159B650300AEE853 /* TravelModel.xcdatamodeld */,
+				6ACFE872159B62A200AEE853 /* TravelTodoList.h */,
+				6ACFE873159B62A200AEE853 /* TravelTodoList.m */,
+				6ACFE874159B62A200AEE853 /* TravelTodoItem.h */,
+				6ACFE875159B62A200AEE853 /* TravelTodoItem.m */,
+				6ACFE8A5159B649400AEE853 /* TravelVault.h */,
+				6ACFE8A6159B649400AEE853 /* TravelVault.m */,
+				6ACFE8A2159B649300AEE853 /* TravelUser.h */,
+				6ACFE8A3159B649300AEE853 /* TravelUser.m */,
+				6ACFE89F159B649300AEE853 /* TravelVaultNote.h */,
+				6ACFE8A0159B649300AEE853 /* TravelVaultNote.m */,
+				6ACFE89C159B649200AEE853 /* TravelVaultImage.h */,
+				6ACFE89D159B649200AEE853 /* TravelVaultImage.m */,
+			);
+			name = MOC;
+			sourceTree = "<group>";
+		};
+		6ACFE87A159B62C100AEE853 /* Custom Nav */ = {
+			isa = PBXGroup;
+			children = (
+				6ACFE87B159B62D900AEE853 /* app-corner-radius.png */,
+				6ACFE87C159B62D900AEE853 /* app-corner-radius@2x.png */,
+				6ACFE87D159B62D900AEE853 /* linen-bg.png */,
+				6ACFE87E159B62D900AEE853 /* linen-bg@2x.png */,
+				6ACFE87F159B62D900AEE853 /* nav-back-btn.png */,
+				6ACFE880159B62D900AEE853 /* nav-back-btn@2x.png */,
+				6ACFE881159B62D900AEE853 /* nav-overlay.png */,
+				6ACFE882159B62D900AEE853 /* nav-overlay@2x.png */,
+				6ACFE883159B62D900AEE853 /* nav-plus-btn.png */,
+				6ACFE884159B62D900AEE853 /* nav-plus-btn@2x.png */,
+				6ACFE885159B62D900AEE853 /* JKNavigationBar.h */,
+				6ACFE886159B62D900AEE853 /* JKNavigationBar.m */,
+				6ACFE887159B62D900AEE853 /* JKNavigationBarController.xib */,
+			);
+			name = "Custom Nav";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +357,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ACFE81C159B619800AEE853 /* InfoPlist.strings in Resources */,
+				6ACFE832159B61EA00AEE853 /* TravelNewChecklistViewController.xib in Resources */,
+				6ACFE848159B61FF00AEE853 /* trash_fill_16x16.png in Resources */,
+				6ACFE849159B61FF00AEE853 /* trash_fill_24x24.png in Resources */,
+				6ACFE84A159B61FF00AEE853 /* check_24x20.png in Resources */,
+				6ACFE84B159B61FF00AEE853 /* tv-nav-plus-icon.png in Resources */,
+				6ACFE84C159B61FF00AEE853 /* tv-nav-plus-icon@2x.png in Resources */,
+				6ACFE84D159B61FF00AEE853 /* tv-todolist-check.png in Resources */,
+				6ACFE84E159B61FF00AEE853 /* tv-todolist-check@2x.png in Resources */,
+				6ACFE84F159B61FF00AEE853 /* tv-todolist-checked.png in Resources */,
+				6ACFE850159B61FF00AEE853 /* tv-todolist-checked@2x.png in Resources */,
+				6ACFE852159B61FF00AEE853 /* TravelTodoItemsViewController.xib in Resources */,
+				6ACFE854159B61FF00AEE853 /* TravelTodoItemsCell.xib in Resources */,
+				6ACFE857159B61FF00AEE853 /* TravelTodoDetailViewController.xib in Resources */,
+				6ACFE860159B621500AEE853 /* TravelChecklistViewController.xib in Resources */,
+				6ACFE862159B621500AEE853 /* TravelTodoListCell.xib in Resources */,
+				6ACFE888159B62D900AEE853 /* app-corner-radius.png in Resources */,
+				6ACFE889159B62D900AEE853 /* app-corner-radius@2x.png in Resources */,
+				6ACFE88A159B62D900AEE853 /* linen-bg.png in Resources */,
+				6ACFE88B159B62D900AEE853 /* linen-bg@2x.png in Resources */,
+				6ACFE88C159B62D900AEE853 /* nav-back-btn.png in Resources */,
+				6ACFE88D159B62D900AEE853 /* nav-back-btn@2x.png in Resources */,
+				6ACFE88E159B62D900AEE853 /* nav-overlay.png in Resources */,
+				6ACFE88F159B62D900AEE853 /* nav-overlay@2x.png in Resources */,
+				6ACFE890159B62D900AEE853 /* nav-plus-btn.png in Resources */,
+				6ACFE891159B62D900AEE853 /* nav-plus-btn@2x.png in Resources */,
+				6ACFE893159B62D900AEE853 /* JKNavigationBarController.xib in Resources */,
+				6ACFE89A159B632D00AEE853 /* tv-main-bg.png in Resources */,
+				6ACFE89B159B632D00AEE853 /* tv-main-bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +397,22 @@
 			files = (
 				6ACFE81E159B619800AEE853 /* main.m in Sources */,
 				6ACFE822159B619800AEE853 /* AppDelegate.m in Sources */,
-				6ACFE825159B619800AEE853 /* MakeItDone.xcdatamodeld in Sources */,
+				6ACFE831159B61EA00AEE853 /* TravelNewChecklistViewController.m in Sources */,
+				6ACFE851159B61FF00AEE853 /* TravelTodoItemsViewController.m in Sources */,
+				6ACFE853159B61FF00AEE853 /* TravelTodoItemsCell.m in Sources */,
+				6ACFE855159B61FF00AEE853 /* CheckboxImageView.m in Sources */,
+				6ACFE856159B61FF00AEE853 /* TravelTodoDetailViewController.m in Sources */,
+				6ACFE85F159B621500AEE853 /* TravelChecklistViewController.m in Sources */,
+				6ACFE861159B621500AEE853 /* TravelTodoListCell.m in Sources */,
+				6ACFE876159B62A200AEE853 /* TravelMOC.m in Sources */,
+				6ACFE878159B62A200AEE853 /* TravelTodoList.m in Sources */,
+				6ACFE879159B62A200AEE853 /* TravelTodoItem.m in Sources */,
+				6ACFE892159B62D900AEE853 /* JKNavigationBar.m in Sources */,
+				6ACFE89E159B649200AEE853 /* TravelVaultImage.m in Sources */,
+				6ACFE8A1159B649300AEE853 /* TravelVaultNote.m in Sources */,
+				6ACFE8A4159B649300AEE853 /* TravelUser.m in Sources */,
+				6ACFE8A7159B649400AEE853 /* TravelVault.m in Sources */,
+				6ACFE8AB159B650300AEE853 /* TravelModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +436,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -200,6 +452,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -210,6 +463,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -219,6 +473,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -227,10 +482,12 @@
 		6ACFE829159B619800AEE853 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MakeItDone/MakeItDone-Prefix.pch";
 				INFOPLIST_FILE = "MakeItDone/MakeItDone-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -238,10 +495,12 @@
 		6ACFE82A159B619800AEE853 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MakeItDone/MakeItDone-Prefix.pch";
 				INFOPLIST_FILE = "MakeItDone/MakeItDone-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -269,13 +528,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6ACFE823159B619800AEE853 /* MakeItDone.xcdatamodeld */ = {
+		6ACFE8A8159B650300AEE853 /* TravelModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6ACFE824159B619800AEE853 /* MakeItDone.xcdatamodel */,
+				6ACFE8A9159B650300AEE853 /* TravelModel 2.xcdatamodel */,
+				6ACFE8AA159B650300AEE853 /* TravelModel.xcdatamodel */,
 			);
-			currentVersion = 6ACFE824159B619800AEE853 /* MakeItDone.xcdatamodel */;
-			path = MakeItDone.xcdatamodeld;
+			currentVersion = 6ACFE8A9159B650300AEE853 /* TravelModel 2.xcdatamodel */;
+			path = TravelModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
